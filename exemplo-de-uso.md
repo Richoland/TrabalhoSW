@@ -126,3 +126,22 @@ Exemplo de resposta:
   "temporada": 5
 }
 ```
+
+5. Excluir uma série
+   Método: DELETE
+   URL: /series/{codigo}
+   Substitua {codigo} pelo código da série que deseja excluir.
+   Exemplo de requisição no Postman:
+
+Método: DELETE
+URL: http://localhost:3002/series/1 (substitua 1 pelo código da série)
+Cabeçalhos:
+Content-Type: application/json
+Corpo: Não é necessário.
+Exemplo de resposta:
+
+```json
+{
+  "message": "Série excluída com sucesso."
+}
+```
