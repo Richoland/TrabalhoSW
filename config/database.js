@@ -4,6 +4,7 @@ const isProduction = process.env.NODE_ENV === 'production';
 
 let sequelize;
 if (isProduction) {
+  console.log("tembo")
   sequelize = new Sequelize(process.env.DATABASE_URL, {
     dialect: 'postgres',
     protocol: 'postgres',
@@ -15,6 +16,7 @@ if (isProduction) {
     },
   });
 } else {
+  console.log("local")
   sequelize = new Sequelize('trabalhoSW', 'postgres', 'postgres', {
     host: 'localhost',
     dialect: 'postgres',
