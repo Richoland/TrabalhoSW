@@ -145,3 +145,7 @@ Exemplo de resposta:
   "message": "Série excluída com sucesso."
 }
 ```
+
+## Voltar ao Readme
+
+[Readme](https://github.com/Richoland/TrabalhoSW/blob/master/README.md)
