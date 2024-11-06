@@ -1,7 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 const rotas = require('./routes/rotas');
-const { sequelize } = require('./config'); // Importa a conexão com o banco
+const { sequelize } = require('./config/database'); // Importa a conexão com o banco
 
 const app = express();
 

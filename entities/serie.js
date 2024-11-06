@@ -1,5 +1,5 @@
 const { DataTypes } = require('sequelize');
-const { sequelize } = require('../config'); // Importa a instância Sequelize
+const { sequelize } = require('../config/database'); // Importa a instância Sequelize
 
 // Definindo o modelo com Sequelize
 const Serie = sequelize.define('Serie', {
